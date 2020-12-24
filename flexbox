@@ -1,0 +1,14 @@
+#id명 {
+  display: flex;         // 기본 설정
+	justify-content: 인자; // 가로선 상 정렬
+	align-items: 인자;     // 세로선 상 정렬
+	flex-direction: 인자;  // 정렬 방향
+	flex-wrap: 인자;       // n줄 정렬
+	flex-flow: 인자 인자;  // flex-direction & flex-wrap 통합
+	align-content: 인자;   // 여러 줄 사이 간격 지정
+}
+
+.class명 {
+	order: 값;             // 값=순서변경
+	align-self: 인자       // 개별요소만 적용
+}
